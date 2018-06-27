@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Drawing App</title>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/draggabilly.pkgd.min.js"></script>
+    <script src="js/reimg.js"></script>
+    <script type="text/javascript" src="js/jquery.wheelcolorpicker.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/wheelcolorpicker.css"/>
+    <link rel="stylesheet" href="css/colorbookmarklet.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <script src="app.js"></script>
+</head>
+<body>
+
+<canvas id="draw"></canvas>
+    <div id="dragme" >
+            <div class="col">
+                <br/>
+                <br/>
+                <div class="row">
+                    <input id="userColor" type="text" value="#ff8800" data-wheelcolorpicker="" data-wcp-layout="block" data-wcp-sliders="wsvap" data-wcp-cssclass="color-block" data-wcp-autoresize="false">
+                </div>
+                <div class="row" >
+                    <input  style="width: 250px" type="range" id="brushSize" min="1" max="50" value="10">
+                    <button style="width: 83px;" id="undoButton"> <span class="fa fa-undo"></span> </button>
+                    <button style="width: 83px;" id="saveButton"> <span class="fa fa-save"></span> </button>
+                    <button style="width: 83px;" id="clearButton"> <span class="fa fa-trash-alt"></span> </button>
+                </div>
+            </div>
+    </div>
+
+
+</body>
+</html>
