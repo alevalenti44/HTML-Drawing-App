@@ -6,7 +6,7 @@ This javascript web app allows you to draw on a page using the HTML Canvas and j
 
 • [jQuery wheelcolorpicker](https://github.com/fujaru/jquery-wheelcolorpicker) (The color wheel)
 
-• [Draggabilly](draggabilly.desandro.com) (To drag the Div easily)
+• [Draggabilly](draggabilly.desandro.com) (To drag the tool)
 
 Also, jQuery, Bootstrap for the css and font-awesome icons.
 
@@ -22,3 +22,4 @@ Simply Pick a color (with right mouse click) and draw!
 
 • Ability to share your creation on social media.
 
+• Shortcuts (ctrl -z to undo, etc.)
